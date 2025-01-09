@@ -38,7 +38,7 @@ const Navbar = () => {
         <a href="#top">
           <Image src={assets.logo} alt="Logo" className="w-28 cursor-pointer mr-14" />
         </a>
-
+         
         {/* Desktop Menu */}
         <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll ? "" : "bg-white shadow-sm bg-opacity-50"}` }>
           <li>
