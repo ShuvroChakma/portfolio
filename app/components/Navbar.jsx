@@ -40,7 +40,7 @@ const Navbar = ({isDarkMode, setIsDarkMode}) => {
         </a>
          
         {/* Desktop Menu */}
-        <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll ? "" : "bg-white shadow-sm bg-opacity-50 dark: border dark:border-white/50 dark:bg-transparent"}` }>
+        <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll ? "" : "bg-white shadow-sm bg-opacity-50 dark: border dark:border-white/50 dark:bg-transparent "}` }>
           <li>
             <a className="font-Ovo" href="#top">
               Home
@@ -75,7 +75,7 @@ const Navbar = ({isDarkMode, setIsDarkMode}) => {
           </button>
           <a
             href="#contact"
-            className="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4 font-Ovo dark:border-white/50"
+            className="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4 font-Ovo hover:shadow-black hover:bg-lightHover hover:-translate-y-1 duration-200 dark:border-white/50  dark:hover:bg-darkHover dark:hover:shadow-white dark:hover:-translate-y-1 duration-200"
           >
             Contact <Image src={ isDarkMode ? assets.arrow_icon_dark : assets.arrow_icon} alt="Arrow" className="w-3" />
           </a>
