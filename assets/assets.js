@@ -82,21 +82,25 @@ export const workData = [
         title: 'E-commerce Headphone',
         description: 'Web Design',
         bgImage: '/work-1.png',
+        URL:'https://shuvrochakma.github.io/ECommerce--Headphone-',
     },
     {
         title: 'Wild Guardians',
         description: 'Web Design',
         bgImage: '/work-2.png',
+        URL:'https://shuvrochakma.github.io/Wild-Guardian'
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
+        title: 'Weather App',
+        description: 'Weather Forecasting Application',
         bgImage: '/work-3.png',
+        URL:'https://future-fs-02-teal.vercel.app',
     },
     {
         title: 'Job Management System',
-        description: 'Web Design',
+        description: 'Job Portal Website',
         bgImage: '/work-4.png',
+        URL: 'https://job-management-system-alpha.vercel.app',
     },
 ]
 
@@ -104,11 +108,11 @@ export const serviceData = [
     { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
     { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
     { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.graphics_icon, title: 'Web Development', description: 'Convert designs to permanent working websites...', link: '' },
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript, ReactJs, NextJs' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript, ReactJs, NextJS, NodeJS, ExpressJS' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'BSc. in Computer Science and Engineering'},
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];

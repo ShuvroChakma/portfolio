@@ -44,8 +44,9 @@ const Work = ({isDarkMode}) => {
                       <h2>{project.title}</h2>
                       <p className='text-sm text-gray-700'>{project.description}</p>
 
-                      <div className='border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition'>
-                         <Image src={assets.send_icon} alt='send icon' className='w-5'/>
+                      <div className='border rounded-md border-black mt-5 w-20 aspect-auto flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition'>
+                         {/* <Image src={assets.send_icon} alt='send icon' className='w-5'/> */}
+                         <a href={project.URL} target="_blank" rel="noopener noreferrer">View Live</a>
                       </div>
                    </div>
                 </div>
